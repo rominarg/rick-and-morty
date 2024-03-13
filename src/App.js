@@ -1,4 +1,4 @@
-// import imageRickMorty from "./img/rick-morty.png";
+import logo from "./img/logo.png";
 import imageRickMorty from "./img/rick-morty.webp";
 import "./App.css";
 
@@ -28,8 +28,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Título del proyecto */}
-        <h1 className="title">Rick & Morty</h1>
+        <img src={logo} alt="Logo de Rick & Morty" className="logo" />
 
         {/* Condicional para renderizar el componente Characters o el botón para buscar personajes */}
         {characters ? (
