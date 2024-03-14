@@ -18,7 +18,8 @@ body {
 }
 
 .btn-search {
-  background-color: #1ba94c;
+  background-color: #42B4CA;
+  border: 5px solid #1ba94c !important;
   color: #000000;
   box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
   font-size: 18.005px;
@@ -30,12 +31,14 @@ body {
   min-height: 2.778em;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .btn-search:hover {
-  background-color: #42B4CA;
-  border: 1px solid #1ba94c;
-  color: #ffffff;
+  background-color: #1ba94c;
+  border: 1px solid #42B4CA;
+  color: #000000;
+  border-radius: 20px;
 }
 
 .characters {
